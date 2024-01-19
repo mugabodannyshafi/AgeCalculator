@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background: whitesmoke;
+    display: flex;
+    padding-top: 3px;
+    padding-left: 5px;
+    line-height: 1.5;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;
+    padding-top: 40px;
+}
+.card .head{
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: #2F3C7E;
+}
+.card .line{
+    border-bottom: 2px solid #2F3C7E;
+    margin-top: 30px;
+    
+}
+.card .form{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #2F3C7E;
+    font-weight: 700;
+}
+.card input{
+    width: 80px;
+    height: 50px;
+    outline: none;
+    padding-left: 7px;
+    border: 1.5px solid #2F3C7E;
+    box-shadow: 1px 1px 2px #2F3C7E;
+}
+.block{
+    width: 145px;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+input[type="text"]{
+    color: #2F3C7E;
+    font-weight: 600;
+    font-size: 20px;
+}
+input[type="text"]::after{
+    color: #2F3C7E;
+    font-weight: 600;
+    font-size: 20px;
+}
+.button{
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.button button{
+    height: 50px;
+    width: 130px;
+    outline: none;
+    border: 2px solid white;
+    background: #2F3C7E;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#output{
+    display: block;
+    margin: 10px;
+    margin-top: 90px;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 30px;
+    line-height: 1.5;
+    color: #2F3C7E;
+    font-weight: 500;
+}
+label{
+    color: #2F3C7E;
+    font-weight: 800;
+    font-size: 20px;
+}
+.card input::placeholder{
+    color: #2F3C7E;
+    font-size: 10px;
+}
